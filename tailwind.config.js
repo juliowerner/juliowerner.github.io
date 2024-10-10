@@ -1,8 +1,40 @@
 /** @type {import('tailwindcss').Config} */
+const colorsTheme = {
+    "primary": "var(--color-primary)",
+    "primary-focus": "var(--color-primary-focus)",
+    "primary-content": "var(--color-primary-content)",
+    "secondary": "var(--color-secondary)",
+    "secondary-focus": "var(--color-secondary-focus)",
+    "secondary-content": "var(--color-secondary-content)",
+    "base": {
+        "100": "var(--color-base-100)",
+        "200": "var(--color-base-200)",
+        "300": "var(--color-base-300)",
+        "400": "var(--color-base-400)",
+    },
+    "base-content": "var(--color-base-content)",
+
+    "info": "var(--color-info)",
+    "info-content": "var(--color-info-content)",
+    "success": "var(--color-success)",
+    "success-content": "var(--color-success-content)",
+    "warning": "var(--color-warning)",
+    "warning-content": "var(--color-warning-content)",
+    "error": "var(--color-error)",
+    "error-content": "var(--color-error-content)",
+}
+
 export default {
     content: ['./src/**/*.{html,js,svelte,ts}'],
+    darkMode: "selector",
     theme: {
+        fontFamily: {
+            'sans': ['Roboto', 'sans-serif'],
+            'serif': ['Noto Serif', 'serif'],
+            'mono': ['Roboto Mono', 'monospace'],
+        },
         extend: {
+            colors: colorsTheme,
             "animation": {
                 "flip": "flip 6s infinite steps(2, end)",
                 "kitrotate": "kitrotate 3s linear infinite both",
