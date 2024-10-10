@@ -8,7 +8,7 @@
 			<h2 class="text-2xl font-bold">Julio Werner</h2>
 		</a>
 		<nav class="flex text-base items-center space-x-4">
-			<a href="#" class="px-3 py-1.5 rounded-full text-sm hover:bg-base-200">About</a>
+			<a href="/" class="px-3 py-1.5 rounded-full text-sm hover:bg-base-200">About</a>
 		</nav>
 		<div class="max-sm:hidden">
 			<DarkModeButton />

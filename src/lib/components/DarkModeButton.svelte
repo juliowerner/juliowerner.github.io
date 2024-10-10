@@ -29,11 +29,11 @@
 </script>
 
 {#if darkMode}
-	<button on:click={() => (darkMode = false)}>
+	<button onclick={() => (darkMode = false)}>
 		<span class="material-symbols-outlined">dark_mode</span>
 	</button>
 {:else}
-	<button on:click={() => (darkMode = true)}>
+	<button onclick={() => (darkMode = true)}>
 		<span class="material-symbols-outlined">light_mode</span>
 	</button>
 {/if}
