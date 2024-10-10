@@ -30,10 +30,10 @@
 
 {#if darkMode}
 	<button onclick={() => (darkMode = false)}>
-		<span class="material-symbols-outlined">dark_mode</span>
+		<span class="material-symbols-outlined">light_mode</span>
 	</button>
 {:else}
 	<button onclick={() => (darkMode = true)}>
-		<span class="material-symbols-outlined">light_mode</span>
+		<span class="material-symbols-outlined">dark_mode</span>
 	</button>
 {/if}
