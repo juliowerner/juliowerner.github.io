@@ -1,6 +1,6 @@
 # My Personal Web Page
 
-Powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Powered by [`Svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
 ## Developing
 
