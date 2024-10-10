@@ -3,52 +3,52 @@
 @tailwind utilities;
 
 :root {
-    /* Light mode by default */
-    --color-primary: #37AC7D;
-    --color-primary-focus: #158658;
-    --color-primary-content: #f7f7f7;
+	/* Light mode by default */
+	--color-primary: #37ac7d;
+	--color-primary-focus: #158658;
+	--color-primary-content: #f7f7f7;
 
-    --color-secondary: #5571DA;
-    --color-secondary-focus: #455EBD;
-    --color-secondary-content: #E9EFED;
+	--color-secondary: #5571da;
+	--color-secondary-focus: #455ebd;
+	--color-secondary-content: #e9efed;
 
-    --color-base-100: #FFFFFF;
-    --color-base-200: #F4F4F5;
-    --color-base-300: #CDCDCD;
-    --color-base-400: #B7B7B7;
-    --color-base-content: #202220;
+	--color-base-100: #ffffff;
+	--color-base-200: #f4f4f5;
+	--color-base-300: #cdcdcd;
+	--color-base-400: #b7b7b7;
+	--color-base-content: #202220;
 
-    --color-info: #5571DA;
-    --color-info-content: #FFFFFF;
-    --color-success: #37AC7D;
-    --color-success-content: #0A3524;
-    --color-warning: #DBD431;
-    --color-warning-content: #4A4919;
-    --color-error: #C05243;
-    --color-error-content: #FFE7E3;
+	--color-info: #5571da;
+	--color-info-content: #ffffff;
+	--color-success: #37ac7d;
+	--color-success-content: #0a3524;
+	--color-warning: #dbd431;
+	--color-warning-content: #4a4919;
+	--color-error: #c05243;
+	--color-error-content: #ffe7e3;
 }
 
 .dark {
-    --color-primary: #37AC7D;
-    --color-primary-focus: #158658;
-    --color-primary-content: #202220;
+	--color-primary: #37ac7d;
+	--color-primary-focus: #158658;
+	--color-primary-content: #202220;
 
-    --color-secondary: #5571DA;
-    --color-secondary-focus: #455EBD;
-    --color-secondary-content: #E9EFED;
+	--color-secondary: #5571da;
+	--color-secondary-focus: #455ebd;
+	--color-secondary-content: #e9efed;
 
-    --color-base-400: #B0B0B0;
-    --color-base-300: #797979;
-    --color-base-200: #474747;
-    --color-base-100: #1C1F1C;
-    --color-base-content: #E9EFED;
+	--color-base-400: #b0b0b0;
+	--color-base-300: #797979;
+	--color-base-200: #474747;
+	--color-base-100: #1c1f1c;
+	--color-base-content: #e9efed;
 
-    --color-info: #8589FF;
-    --color-info-content: #000000;
-    --color-success: #37AC7D;
-    --color-success-content: #0A3524;
-    --color-warning: #DBD431;
-    --color-warning-content: #4A4919;
-    --color-error: #C05243;
-    --color-error-content: #FFE7E3;
+	--color-info: #8589ff;
+	--color-info-content: #000000;
+	--color-success: #37ac7d;
+	--color-success-content: #0a3524;
+	--color-warning: #dbd431;
+	--color-warning-content: #4a4919;
+	--color-error: #c05243;
+	--color-error-content: #ffe7e3;
 }
