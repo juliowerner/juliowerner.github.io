@@ -1,3 +1,9 @@
+<script>
+	let year = new Date().getFullYear();
+</script>
+
 <footer class="border-t border-neutral-800">
-	<span class="text-md">Julio Werner © 2024</span>
+	<div class="py-5 text-center">
+		<span class="text-md">Julio Werner's Blog © {year}</span>
+	</div>
 </footer>
