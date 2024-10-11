@@ -20,7 +20,7 @@
 
 <button
 	onclick={() => openLink()}
-	class="px-3 py-1.5 rounded-full text-sm hover:bg-primary-focus hover:text-primary-content"
+	class="px-3 py-1.5 rounded-full text-sm bg-primary text-primary-content hover:bg-primary-focus hover:text-primary-content"
 >
 	{props.name}
 </button>

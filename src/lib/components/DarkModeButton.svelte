@@ -9,7 +9,6 @@
 
 	if (browser) {
 		const theme = localStorage.getItem('theme');
-		console.log(theme);
 		if (theme) {
 			darkMode = theme === 'dark';
 		} else {

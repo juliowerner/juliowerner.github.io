@@ -1,4 +1,5 @@
 <script>
+	import Button from '$lib/components/Button.svelte';
 	import SectionWrapper from '$lib/components/SectionWrapper.svelte';
 </script>
 
@@ -18,6 +19,7 @@
 				Sorry we couldn't find this page.
 			</p>
 			<p class="mb-8">But dont worry, you can find plenty of other things on our homepage.</p>
+			<Button name="Home" href="/" />
 		</div>
 	</div>
 </SectionWrapper>
