@@ -14,7 +14,7 @@ export async function entries(): Promise<{ slug: string }[]> {
     const markdownFragments = Object.keys(import.meta.glob('/src/routes/fragments/*.md'));
     const fragments = await Promise.all(
         markdownFragments.map(async (path) => {
-            return { slug: path.slice(21, -3) };
+            return { slug: path.slice(22, -3) };
         }));
     return fragments;
 }
