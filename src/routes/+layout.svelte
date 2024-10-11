@@ -7,7 +7,7 @@
 </script>
 
 <Header />
-<main class="min-h-screen">
+<main>
 	{@render children()}
 </main>
 <Footer />
