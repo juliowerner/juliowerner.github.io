@@ -4,51 +4,51 @@
 
 :root {
 	/* Light mode by default */
-	--color-primary: #37ac7d;
-	--color-primary-focus: #158658;
-	--color-primary-content: #f7f7f7;
+	--color-primary: 55, 172, 125;
+	--color-primary-focus: 21, 134, 88;
+	--color-primary-content: 255, 255, 255;
 
-	--color-secondary: #5571da;
-	--color-secondary-focus: #455ebd;
-	--color-secondary-content: #e9efed;
+	--color-secondary: 84, 113, 217;
+	--color-secondary-focus: 69, 94, 189;
+	--color-secondary-content: 255, 255, 255;
 
-	--color-base-100: #ffffff;
-	--color-base-200: #f4f4f5;
-	--color-base-300: #cdcdcd;
-	--color-base-400: #b7b7b7;
-	--color-base-content: #202220;
+	--color-base-100: 255, 255, 255;
+	--color-base-200: 244, 244, 245;
+	--color-base-300: 205, 205, 205;
+	--color-base-400: 183, 183, 183;
+	--color-base-content: 32, 34, 32;
 
-	--color-info: #5571da;
-	--color-info-content: #ffffff;
-	--color-success: #37ac7d;
-	--color-success-content: #0a3524;
-	--color-warning: #dbd431;
-	--color-warning-content: #4a4919;
-	--color-error: #c05243;
-	--color-error-content: #ffe7e3;
+	--color-info: 85, 113, 218;
+	--color-info-content: 255, 255, 255;
+	--color-success: 55, 172, 125;
+	--color-success-content: 10, 53, 36;
+	--color-warning: 219, 212, 49;
+	--color-warning-content: 74, 73, 25;
+	--color-error: 192, 82, 67;
+	--color-error-content: 255, 231, 227;
 }
 
 .dark {
-	--color-primary: #37ac7d;
-	--color-primary-focus: #158658;
-	--color-primary-content: #202220;
+	--color-primary: 55, 172, 125;
+	--color-primary-focus: 21, 134, 88;
+	--color-primary-content: 255, 255, 255;
 
-	--color-secondary: #5571da;
-	--color-secondary-focus: #455ebd;
-	--color-secondary-content: #e9efed;
+	--color-secondary: 85, 113, 218;
+	--color-secondary-focus: 69, 94, 189;
+	--color-secondary-content: 255, 255, 255;
 
-	--color-base-400: #b0b0b0;
-	--color-base-300: #797979;
-	--color-base-200: #474747;
-	--color-base-100: #1c1f1c;
-	--color-base-content: #e9efed;
+	--color-base-400: 176, 176, 176;
+	--color-base-300: 121, 121, 121;
+	--color-base-200: 71, 71, 71;
+	--color-base-100: 29, 32, 29;
+	--color-base-content: 233, 239, 237;
 
-	--color-info: #8589ff;
-	--color-info-content: #000000;
-	--color-success: #37ac7d;
-	--color-success-content: #0a3524;
-	--color-warning: #dbd431;
-	--color-warning-content: #4a4919;
-	--color-error: #c05243;
-	--color-error-content: #ffe7e3;
+	--color-info: 133, 137, 255;
+	--color-info-content: 0, 0, 0;
+	--color-success: 55, 172, 125;
+	--color-success-content: 10, 53, 36;
+	--color-warning: 219, 212, 49;
+	--color-warning-content: 74, 73, 25;
+	--color-error: 192, 82, 67;
+	--color-error-content: 255, 231, 227;
 }
