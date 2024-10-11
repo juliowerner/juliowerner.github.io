@@ -1,27 +1,27 @@
 /** @type {import('tailwindcss').Config} */
 const colorsTheme = {
-    primary: 'var(--color-primary)',
-    'primary-focus': 'var(--color-primary-focus)',
-    'primary-content': 'var(--color-primary-content)',
-    secondary: 'var(--color-secondary)',
-    'secondary-focus': 'var(--color-secondary-focus)',
-    'secondary-content': 'var(--color-secondary-content)',
+    primary: 'rgba(var(--color-primary))',
+    'primary-focus': 'rgba(var(--color-primary-focus))',
+    'primary-content': 'rgba(var(--color-primary-content))',
+    secondary: 'rgba(var(--color-secondary))',
+    'secondary-focus': 'rgba(var(--color-secondary-focus))',
+    'secondary-content': 'rgba(var(--color-secondary-content))',
     base: {
-        100: 'var(--color-base-100)',
-        200: 'var(--color-base-200)',
-        300: 'var(--color-base-300)',
-        400: 'var(--color-base-400)'
+        100: 'rgba(var(--color-base-100))',
+        200: 'rgba(var(--color-base-200))',
+        300: 'rgba(var(--color-base-300))',
+        400: 'rgba(var(--color-base-400))'
     },
-    'base-content': 'var(--color-base-content)',
+    'base-content': 'rgba(var(--color-base-content))',
 
-    info: 'var(--color-info)',
-    'info-content': 'var(--color-info-content)',
-    success: 'var(--color-success)',
-    'success-content': 'var(--color-success-content)',
-    warning: 'var(--color-warning)',
-    'warning-content': 'var(--color-warning-content)',
-    error: 'var(--color-error)',
-    'error-content': 'var(--color-error-content)'
+    info: 'rgba(var(--color-info))',
+    'info-content': 'rgba(var(--color-info-content))',
+    success: 'rgba(var(--color-success))',
+    'success-content': 'rgba(var(--color-success-content))',
+    warning: 'rgba(var(--color-warning))',
+    'warning-content': 'rgba(var(--color-warning-content))',
+    error: 'rgba(var(--color-error))',
+    'error-content': 'rgba(var(--color-error-content))'
 };
 
 export default {
