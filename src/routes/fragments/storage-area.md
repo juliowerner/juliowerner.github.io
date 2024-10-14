@@ -1,6 +1,6 @@
 ---
-title: Connecting storage area to a stream in HEC-RAS Model
-date: '2024-10-11'
+title: Connecting storage area to a stream in HEC-RAS
+date: '2017-03-31'
 tags: ['hydrodynamic', 'HEC-RAS']
 ---
 
