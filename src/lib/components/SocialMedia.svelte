@@ -1,5 +1,5 @@
 <div class="flex flex-row justify-center my-2">
-	<div class="flex p-2 hover:bg-primary-focus hover:text-primary-content rounded-full">
+	<div class="flex p-2 hover:text-primary rounded-full">
 		<a href="https://github.com/juliowerner">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@
 			</svg>
 		</a>
 	</div>
-	<div class="flex p-2 hover:bg-primary-focus hover:text-primary-content rounded-full">
+	<div class="flex p-2 hover:text-primary rounded-full">
 		<a href="https://www.linkedin.com/in/juliowerner/">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@
 			</svg>
 		</a>
 	</div>
-	<div class="flex p-2 hover:bg-primary-focus hover:text-primary-content rounded-full">
+	<div class="flex p-2 hover:text-primary rounded-full">
 		<a href="https://x.com/juliowyb">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@
 			</svg></a
 		>
 	</div>
-	<div class="flex p-2 hover:bg-primary-focus hover:text-primary-content rounded-full">
+	<div class="flex p-2 hover:text-primary rounded-full">
 		<a href="https://www.instagram.com/juliowyb/">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@
 			</svg>
 		</a>
 	</div>
-	<div class="flex p-2 hover:bg-primary-focus hover:text-primary-content rounded-full">
+	<div class="flex p-2 hover:text-primary rounded-full">
 		<a href="https://www.youtube.com/@JulioWerner">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"

@@ -1,27 +1,56 @@
 /** @type {import('tailwindcss').Config} */
-const colorsTheme = {
-	primary: 'rgba(var(--color-primary))',
-	'primary-focus': 'rgba(var(--color-primary-focus))',
-	'primary-content': 'rgba(var(--color-primary-content))',
-	secondary: 'rgba(var(--color-secondary))',
-	'secondary-focus': 'rgba(var(--color-secondary-focus))',
-	'secondary-content': 'rgba(var(--color-secondary-content))',
-	base: {
-		100: 'rgba(var(--color-base-100))',
-		200: 'rgba(var(--color-base-200))',
-		300: 'rgba(var(--color-base-300))',
-		400: 'rgba(var(--color-base-400))'
-	},
-	'base-content': 'rgba(var(--color-base-content))',
+import typography from '@tailwindcss/typography';
 
-	info: 'rgba(var(--color-info))',
-	'info-content': 'rgba(var(--color-info-content))',
-	success: 'rgba(var(--color-success))',
-	'success-content': 'rgba(var(--color-success-content))',
-	warning: 'rgba(var(--color-warning))',
-	'warning-content': 'rgba(var(--color-warning-content))',
-	error: 'rgba(var(--color-error))',
-	'error-content': 'rgba(var(--color-error-content))'
+const colorsTheme = {
+	'primary':'rgba(var(--color-primary))',
+	'surface-tint':'rgba(var(--color-surface-tint))',
+	'on-primary':'rgba(var(--color-on-primary))',
+	'primary-container':'rgba(var(--color-pricontainer))',
+	'on-primary-container':'rgba(var(--color-on-primary-container))',
+	'secondary':'rgba(var(--color-secondary))',
+	'on-secondary':'rgba(var(--color-on-secondary))',
+	'secondary-container':'rgba(var(--color-secondary-container))',
+	'on-secondary-container':'rgba(var(--color-on-secondary-container))',
+	'tertiary':'rgba(var(--color-tertiary))',
+	'on-tertiary':'rgba(var(--color-on-tertiary))',
+	'tertiary-container':'rgba(var(--color-tertiary-container))',
+	'on-tertiary-container':'rgba(var(--color-on-tertiary-container))',
+	'error':'rgba(var(--color-error))',
+	'on-error':'rgba(var(--color-on-error))',
+	'error-container':'rgba(var(--color-error-container))',
+	'on-error-container':'rgba(var(--color-on-error-container))',
+	'background':'rgba(var(--color-background))',
+	'on-background':'rgba(var(--color-on-background))',
+	'surface':'rgba(var(--color-surface))',
+	'on-surface':'rgba(var(--color-on-surface))',
+	'surface-variant':'rgba(var(--color-surface-variant))',
+	'on-surface-variant':'rgba(var(--color-on-surface-variant))',
+	'outline':'rgba(var(--color-outline))',
+	'outline-variant':'rgba(var(--color-outline-variant))',
+	'shadow':'rgba(var(--color-shadow))',
+	'scrim':'rgba(var(--color-scrim))',
+	'inverse-surface':'rgba(var(--color-inverse-surface))',
+	'inverse-on-surface':'rgba(var(--color-inverse-on-surface))',
+	'inverse-primary':'rgba(var(--color-inverse-primary))',
+	'primary-fixed':'rgba(var(--color-primary-fixed))',
+	'on-primary-fixed':'rgba(var(--color-on-primary-fixed))',
+	'primary-fixed-dim':'rgba(var(--color-primary-fixed-dim))',
+	'on-primary-fixed-variant':'rgba(var(--color-on-primary-fixed-variant))',
+	'secondary-fixed':'rgba(var(--color-secondary-fixed))',
+	'on-secondary-fixed':'rgba(var(--color-on-secondary-fixed))',
+	'secondary-fixed-dim':'rgba(var(--color-secondary-fixed-dim))',
+	'on-secondary-fixed-variant':'rgba(var(--color-on-secondary-fixed-variant))',
+	'tertiary-fixed':'rgba(var(--color-tertiary-fixed))',
+	'on-tertiary-fixed':'rgba(var(--color-on-tertiary-fixed))',
+	'tertiary-fixed-dim':'rgba(var(--color-tertiary-fixed-dim))',
+	'on-tertiary-fixed-variant':'rgba(var(--color-on-tertiary-fixed-variant))',
+	'surface-dim':'rgba(var(--color-surface-dim))',
+	'surface-bright':'rgba(var(--color-surface-bright))',
+	'surface-container-lowest':'rgba(var(--color-surface-container-lowest))',
+	'surface-container-low':'rgba(var(--color-surface-container-low))',
+	'surface-container':'rgba(var(--color-surface-container))',
+	'surface-container-high':'rgba(var(--color-surface-container-high))',
+	'surface-container-highest':'rgba(var(--color-surface-container-highest))',
 };
 
 export default {
@@ -154,5 +183,5 @@ export default {
 			} // Keyframes
 		} // Extend
 	},
-	plugins: [require('@tailwindcss/typography')]
+	plugins: [typography]
 };

@@ -6,7 +6,7 @@
 </script>
 
 <SectionWrapper>
-	<div class="p-6 border border-base-300">
+	<div class="p-6 border border-outline">
 		<h1
 			class="text-3xl font-extrabold leading-9 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14"
 		>
