@@ -7,7 +7,7 @@
 </script>
 
 <Header />
-<main>
+<main class="container mx-auto grow">
 	{@render children()}
 </main>
 <Footer />
