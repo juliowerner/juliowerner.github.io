@@ -58,9 +58,9 @@ export default {
 	darkMode: 'selector',
 	theme: {
 		fontFamily: {
-			sans: ['Roboto', 'sans-serif'],
+			sans: ['Noto', 'sans-serif'],
 			serif: ['Noto Serif', 'serif'],
-			mono: ['Roboto Mono', 'monospace']
+			mono: ['Noto Mono', 'monospace']
 		},
 		extend: {
 			colors: colorsTheme,
